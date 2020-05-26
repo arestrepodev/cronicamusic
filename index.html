@@ -125,40 +125,13 @@
           </p>
 
           <!-- Section -->
-          <section>
+          <!-- <section>
             <header>
               <h3>Videos</h3>
               <p>
                 Algunas playlist, covers y canciones para que nos sigas en
                 <strong>YouTube</strong>, no te olvides de darle me gusta y
                 suscribirte.
-              </p>
-            </header>
-            <div class="content">
-              <div class="gallery">
-                <a href="images/gallery/fulls/01.jpg" class="landscape"
-                  ><img src="images/gallery/thumbs/01.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/02.jpg"
-                  ><img src="images/gallery/thumbs/02.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/03.jpg"
-                  ><img src="images/gallery/thumbs/03.jpg" alt=""
-                /></a>
-                <a href="images/gallery/fulls/04.jpg" class="landscape"
-                  ><img src="images/gallery/thumbs/04.jpg" alt=""
-                /></a>
-              </div>
-            </div>
-          </section>
-
-          <!-- Section -->
-          <section>
-            <header>
-              <h3>Fotografías</h3>
-              <p>
-                Emociones, sentimientos y vivencias, todas en algún momento y
-                tiempo distinto.
               </p>
             </header>
             <div class="content">
@@ -174,10 +147,10 @@
                 /></a>
               </div>
             </div>
-          </section>
+          </section> -->
 
           <!-- Section -->
-          <section>
+          <!-- <section>
             <header>
               <h3>Integrantes</h3>
               <p>
@@ -187,6 +160,30 @@
                 (Bajo), integrantes de la banda, personas que con talento,
                 disciplina y perseverancia crean
                 <strong>contenido para ti.</strong>
+              </p>
+            </header>
+            <div class="content">
+              <div class="gallery">
+                <a href="images/gallery/fulls/05.jpg" class="landscape"
+                  ><img src="images/gallery/thumbs/05.jpg" alt=""
+                /></a>
+                <a href="images/gallery/fulls/06.jpg"
+                  ><img src="images/gallery/thumbs/06.jpg" alt=""
+                /></a>
+                <a href="images/gallery/fulls/07.jpg"
+                  ><img src="images/gallery/thumbs/07.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </section> -->
+
+          <!-- Section -->
+          <section>
+            <header>
+              <h3>Fotografías</h3>
+              <p>
+                Emociones, sentimientos y vivencias, todas en algún momento y
+                tiempo distinto.
               </p>
             </header>
             <div class="content">
@@ -234,7 +231,10 @@
             <strong>Nos gustaría</strong> poder ser parte de tus eventos, si te
             gusta nuestra música, contáctanos y pronto nos comuncaremos contigo.
           </p>
-          <form>
+          <form
+            method="POST"
+            action="https://formsubmit.io/send/c21acb26-489c-4ef8-bb81-1312ea72fedf"
+          >
             <div class="fields">
               <div class="field half">
                 <input
@@ -242,6 +242,11 @@
                   name="name"
                   id="name"
                   placeholder="Nombre:"
+                />
+                <input
+                  name="_contact-cronicamusic"
+                  type="text"
+                  style="display: none;"
                 />
               </div>
               <div class="field half">
@@ -263,11 +268,9 @@
             </div>
             <ul class="actions">
               <li>
-                <input
-                  type="submit"
-                  value="Enviar Mensaje"
-                  class="button primary"
-                />
+                <button type="submit" class="button primary">
+                  Enviar Mensaje
+                </button>
               </li>
             </ul>
           </form>
